@@ -1,0 +1,14 @@
+{
+  "name": "st2de_week1_hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rainstop1205",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
