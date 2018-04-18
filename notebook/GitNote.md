@@ -31,12 +31,12 @@ git branch|列出分支
 * ```cd ~/ohoh/haha```<br>
   切換到 home 目錄(~表示 home 目錄)下的 ohoh 下的 haha 目錄
 #### $ git clone（複製儲存庫）
-* ```git clone \<url>```<br>
+* ```git clone <url>```<br>
   將\<url>的遠端儲存庫複製到自己的電腦，目錄裡會產生一個同名資料夾
-* ```git clone \<url> \<name>```<br>
+* ```git clone <url> <name>```<br>
   複製到自己的電腦，並將資料夾命名為name 
 #### $ git add（加入追蹤）
-* ```git add \<file>```<br>
+* ```git add <file>```<br>
   將\<file>加入追蹤
 * ```git add -u```<br>
   只將修改過的(edited)檔案加入追蹤
@@ -47,7 +47,7 @@ git branch|列出分支
 #### $ git commit（提交）
 * ```git commit```<br>
   將目前暫存區的修改進行提交，會進入編輯message(**顯示在log記錄**)階段
-* ```git commit -m \<message>```<br>
+* ```git commit -m <message>```<br>
   直接加上message一起提交，跳過編輯階段
 #### $ git remote（遠端）
 * ```git remote (show)```<br>
@@ -56,8 +56,8 @@ git branch|列出分支
   顯示遠端儲存庫名稱及位置
 #### $ git push（推送）
 * ```git push```<br>
-  將本地(**預設為master**)已提交的(committed)檔案推送至遠端儲存庫(**預設為origin**)
-* ```git push \<remote> \<branch>```<br>
+  將本地分支(**預設為master**)已提交的(committed)檔案推送至遠端儲存庫分支(**預設為origin**)
+* ```git push <remote> <branch>```<br>
   將本地分支\<branch>的檔案推送至遠端儲存庫分支\<remote><br>
   ~意即```$ git push ```的作用等於```$ git push origin master```	&larr; 默認！！！
 #### $ git branch（分支）
