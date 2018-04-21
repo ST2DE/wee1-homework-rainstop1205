@@ -1,0 +1,35 @@
+body {
+    font-family: '·L³n¥¿¶ÂÅé';
+}
+#title {
+    background-color: ;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    border: 20px;
+    margin: auto;
+}
+
+.post {
+    background-color:;
+    text-align: center;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    .post h3 {
+        font-size: 30px;
+        color: #333;
+    }
+
+    .post p {
+        margin: 0 auto;
+        font-size: 16px;
+        width: 50%;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
